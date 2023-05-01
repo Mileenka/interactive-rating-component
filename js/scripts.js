@@ -8,9 +8,9 @@ let checked;
 let rating = 0;
 
 function evaluationResult() {
-    container.classList.add('hide');
+    container.classList.add('display');
     userSelection.innerText = `You selected ${rating} out of 5`;
-    container2.classList.remove('hide');
+    container2.classList.remove('display');
 }
 
 const checking = (e) => {
