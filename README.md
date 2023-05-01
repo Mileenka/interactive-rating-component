@@ -35,7 +35,7 @@ Here are screenshots of my solution
 ### Links 🌐
 
 - Solution URL: [Repo](https://github.com/Mileenka/interactive-rating-component)
-- Live Site URL: [live]()
+- Live Site URL: [live](https://mileenka.github.io/interactive-rating-component)
 
 ## My process
 
