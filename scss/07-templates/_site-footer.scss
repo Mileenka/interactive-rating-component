@@ -9,5 +9,9 @@
 }
 
 .attribution a {
+  background-color: rgba(55, 50, 41, 0.367);
   color: $color-orange;
+  border-top: .5px solid rgba(235, 177, 101, 0.645);
+  border-left: .5px solid rgba(235, 177, 101, 0.461);
+  border-radius: 15%;
 }
