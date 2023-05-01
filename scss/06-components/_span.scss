@@ -1,0 +1,16 @@
+@use "../01-settings/" as *;
+@use "../02-tools/" as *;
+
+.userSelection {
+  position: relative;
+  top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 3rem;
+  background-color: hsla(213, 20%, 22%, 0.663);
+  font-size: 1.4rem;
+  color: $color-orange;
+  border-radius: 3rem;
+}

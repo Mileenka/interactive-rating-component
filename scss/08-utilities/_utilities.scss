@@ -1,0 +1,10 @@
+@use "../01-settings/" as *;
+
+.hide {
+  visibility: hidden;
+}
+
+.checked {
+  background-color: $color-mediumGrey;
+  color: $color-white;
+}

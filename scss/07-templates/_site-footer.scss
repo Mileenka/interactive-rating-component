@@ -1,0 +1,13 @@
+@use "../01-settings/" as *;
+
+.attribution {
+  position: relative;
+  top: 3rem;
+  font-size: 11px;
+  text-align: center;
+  color: $color-lightGrey;
+}
+
+.attribution a {
+  color: $color-orange;
+}

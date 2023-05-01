@@ -1,0 +1,27 @@
+@use "../01-settings/" as *;
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.3rem;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 0.3rem;
+  background: $color-darkBlue;
+  font-size: 1.4rem;
+  color: $color-lightGrey;
+  border-radius: 50%;
+
+  &:hover {
+    background: $color-orange;
+    color: $color-white;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+
+  <body>
+    <section class="site-section">
+      <div class="container">
+        <div class="star-bg">
+          <div class="star-bg__star"></div>
+        </div>
+
+        <h1>How did we do?</h1>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <ul class="ratings">
+          <li id="rat1" class="rating1">1</li>
+          <li id="rat2" class="rating2">2</li>
+          <li id="rat3" class="rating3">3</li>
+          <li id="rat4" class="rating4">4</li>
+          <li id="rat5" class="rating5">5</li>
+        </ul>
+
+        <div class="btn-container">
+          <button id="btn-submit" class="btn" type="submit">Submit</button>
+        </div>
+      </div>
+
+      <div class="container2 hide">
+        <div class="image"></div>
+        <span class="userSelection"></span>
+
+        <p class="thanks">Thank you!</p>
+
+        <p class="thanks-info">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="attribution">Challenge by<a href="https://github.com/Mileenka" target="_blank" 
+           rel="noopener norefferer">Frontend Mentor</a>. Coded by <a href="#">Mileenka</a>.
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+@use "../01-settings/" as *;
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-veryDarkBlue;
+  font-family: "Overpass", sans-serif;
+}

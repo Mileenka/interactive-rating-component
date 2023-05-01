@@ -1,0 +1,11 @@
+@use "../01-settings/" as *;
+
+.site-section {
+  width: min(100%, 36rem);
+  min-width: 33rem;
+  height: 35.9rem;
+  padding: 2.5rem;
+  background: $color-darkBlue;
+  border-radius: 1.8rem;
+  box-shadow: inset 3px -61px 100px 85px hsl(218, 15%, 14%);
+}

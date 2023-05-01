@@ -1,0 +1,17 @@
+@use "..//01-settings/" as *;
+
+.star-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: $color-darkBlue;
+  border-radius: 50%;
+
+  &__star {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url("../assets/images/icon-star.svg") center/cover;
+  }
+}
