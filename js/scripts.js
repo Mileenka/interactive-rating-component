@@ -23,27 +23,28 @@ const checking = (e) => {
 
 document.querySelector('.site-section').addEventListener('click', e => {
 
-    if (e.target.id === 'rat1'){
-        rating = 1;
-        checking(e.target);
-    }
-    if (e.target.id === 'rat2'){
-        rating = 2;
-        checking(e.target);
-    }
-    if (e.target.id === 'rat3'){
-        rating = 3;
-        checking(e.target);
-    }
-    if (e.target.id === 'rat4'){
-        rating = 4;
-        checking(e.target);
-    }
-    if (e.target.id === 'rat5'){
-        rating = 5;
-        checking(e.target);
-    }
-    if (e.target.id === 'btn-submit'){
-        evaluationResult();
-    }
+    switch (e.target.id) {
+        case 'rat1':
+          rating = 1;
+          checking(e.target);
+          break;
+        case 'rat2':
+          rating = 2;
+          checking(e.target);
+          break;
+        case 'rat3':
+          rating = 3;
+          checking(e.target);
+          break;
+        case 'rat4':
+          rating = 4;
+          checking(e.target);
+          break;
+        case 'rat5':
+          rating = 5;
+          checking(e.target);
+          break;
+        case 'btn-submit':
+          evaluationResult();
+      }      
 });
