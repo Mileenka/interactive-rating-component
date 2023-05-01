@@ -175,7 +175,7 @@ li:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: -29rem;
+  top: 0;
 }
 
 .btn-container {
@@ -219,8 +219,8 @@ li:hover {
   color: hsl(25deg, 97%, 53%);
 }
 
-.hide {
-  visibility: hidden;
+.display {
+  display: none;
 }
 
 .checked {
